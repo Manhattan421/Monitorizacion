@@ -1,4 +1,4 @@
-*Comandos para la monitorización de procesos:
+# Comandos para la monitorización de procesos:
 - ps: El comando ps (process status) nos informa sobre el estado de los procesos. Dependiendo de los parámetros que le demos nos mostrara un tipo de información u otra y unos procesos u otros.
 - ps 
 - ps 
