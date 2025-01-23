@@ -3,7 +3,7 @@ La monitorización de servidores es el proceso de supervisar y recopilar datos s
 Este proceso nos permite detectar problemas, optimizar recursos, planificar la capacidad futura, y tomar medidas proactivas para evitar interrupciones.
 ## Índice
 1. [Introducción](Introducción.md)
-2. [Monitorización de procesos](.md)
+2. [Monitorización de procesos](monitorizacion_de_procesos.md)
 3. [Monitorización del alamacenamiento](.md)
 4. [Monitorización de la red](.md)
 5. [Referencias](.md)
