@@ -18,7 +18,7 @@
 - htop F4 Filtra los procesos por el nombre.
 
 ### Comando atop
-- atop: es un programa de monitorización ASCII con el que se puede visualizar la carga del sistema en Linux. Al iniciar atop, se muestra el uso de la CPU y la memoria, así como información sobre los archivos de intercambio, discos duros/SSD y conexión de red en intervalos de 10 segundos.
+- atop: Es un programa de monitorización ASCII con el que se puede visualizar la carga del sistema en Linux. Al iniciar atop, se muestra el uso de la CPU y la memoria, así como información sobre los archivos de intercambio, discos duros/SSD y conexión de red en intervalos de 10 segundos.
 - atop -d Muestra estadísticas de los discos.
 - atop -c Muestra las estadísticas de los procesos.
 - atop -R Muestra estadísticas de red detalladas.
