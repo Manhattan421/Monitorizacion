@@ -1,7 +1,7 @@
 # Comandos para la monitorización de almacenamiento:
 ### Comando free
-Este comando proporciona toda la información sobre la RAM, cuanta RAM se está utilizando, cuenta está disponible, etc. 
-El comando free sin opciones nos devolverá entonces los resultados para la memoria Total, Usada y Libre de tu ordenador o servidor.
+Es una herramienta cuya utilidad principal es analizar el tráfico que circula por la red. 
+Permite al usuario capturar y mostrar en tiempo real los paquetes transmitidos y recibidos por la red a la cual el ordenador está conectado.
 - free -b  Muestra la memoria en bytes
 - free -m  Muestra la memoria en megabytes (MB).
 - free -g  Muestra la memoria en gigabytes (GB).
