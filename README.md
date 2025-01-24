@@ -5,5 +5,5 @@ Este proceso nos permite detectar problemas, optimizar recursos, planificar la c
 1. [Introducción](Introducción.md)
 2. [Monitorización de procesos](monitorizacion_de_procesos.md)
 3. [Monitorización del alamacenamiento](Monitorización_de_Almacenamiento.md)
-5. [Monitorización de la red](.md)
+5. [Monitorización de la red](Monitorización_de_red.md)
 6. [Referencias](.md)
