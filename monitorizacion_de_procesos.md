@@ -20,11 +20,11 @@ El comando top se utiliza para descubrir procesos que consumen muchos recursos. 
 ### Comando htop
 Es un visor de procesos y una aplicación en modo de texto para la supervisión del sistema en tiempo real, similar a top. Es fácil de usar y muestra una lista completa de los procesos que se ejecutan.
 - htop F2 Abre el menú de configuración, donde puedes personalizar la interfaz.
-![htop](img/htopF2.PNG)
+![htop](img/htopf2.PNG)
 - htop F3 Permite buscar un proceso por nombre o por PID.
-![htop](img/htopF3.PNG)
+![htop](img/htopf3.PNG)
 - htop F4 Filtra los procesos por el nombre.
-![htop](img/htopF4.PNG)
+![htop](img/htopf4.PNG)
 
 ### Comando atop
 Es un programa de monitorización ASCII con el que se puede visualizar la carga del sistema en Linux. Al iniciar atop, se muestra el uso de la CPU y la memoria, así como información sobre los archivos de intercambio, discos duros/SSD y conexión de red en intervalos de 10 segundos.
