@@ -4,7 +4,9 @@ El comando ps (process status) nos informa sobre el estado de los procesos. Depe
 - ps -A: muestra todos los procesos que se están ejecutando en el sistema (los de todos los usuarios).
 ![Visigodos](img/ps-A.PNG)
 - ps -f: muestra todos los procesos con mayor detalle.
+![Visigodos](img/ps-f.PNG)  
 - ps -x: muestra únicamente los procesos que pertenecen al usuario ejecutor.
+![Visigodos](img/ps-x.PNG)  
 
 ### Comando top
 El comando top se utiliza para descubrir procesos que consumen muchos recursos. Este comando de Linux ordenará la lista por uso de CPU, de modo que el proceso que consuma más recursos se colocará en la parte superior. También es útil para comprobar si un proceso específico se está ejecutando.
