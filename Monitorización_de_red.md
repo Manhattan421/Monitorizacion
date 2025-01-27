@@ -1,6 +1,6 @@
 # Comandos para la monitorización de red:
 ### Comando tcpdump
-Este comando proporciona toda la información sobre la RAM, cuanta RAM se está utilizando, cuenta está disponible, etc. 
+tcpdump es una herramienta de software que permite capturar y analizar los paquetes de datos que viajan por una red en tiempo real. Se utiliza para observar el tráfico de red, diagnosticar problemas y entender cómo se comunican las aplicaciones y dispositivos en la red. Funciona mostrando información detallada sobre los paquetes, como la dirección de origen, destino, el protocolo utilizado, y otros datos clave.
 El comando free sin opciones nos devolverá entonces los resultados para la memoria Total, Usada y Libre de tu ordenador o servidor.
 - tcpdump -i + la interfaz de red, Especifica la interfaz de red en la que quieres escuchar el tráfico.
 ![tcpdump](img/tcpdump-i.PNG)
@@ -10,7 +10,8 @@ El comando free sin opciones nos devolverá entonces los resultados para la memo
 ![tcpdump](img/tcpdump-X.PNG)
 
 ### Comando tcptrack
-Aunque es una aplicación bastante desconocida, nos muestra todos los datos del consumo de nuestra conexión.
+tcptrack es una herramienta que te permite ver las conexiones de red activas que utilizan el protocolo TCP en tu sistema, de una manera visual y fácil de seguir. En vez de mostrar todos los paquetes de datos como lo hace tcpdump, tcptrack solo muestra las conexiones TCP abiertas, actualizando la información constantemente.
+Es como un "monitor" para las conexiones de red, donde puedes ver direcciones IP están conectadas, puertos que están siendo utilizados y el estado de esas conexiones.
 - tpctrack -i + la interfaz de red, Especifica la interfaz de red que deseas monitorear que en nuestro caso es la enp0s3
 ![tpctrack](img/tpctrack-i.PNG)
 - tpctrack -n Muestra las direcciones IP y puertos en formato numérico, sin intentar resolver los nombres de host o los nombres de servicio. Esto puede hacer que la salida sea más rápida.
@@ -26,9 +27,8 @@ Es una herramienta interactiva que proporciona estadísticas detalladas sobre el
 ![iptraf-ng](img/iptraf-ng-h.PNG)
 
 ### Comando netstat
-El comando netstat genera visualizaciones que muestran el estado de la red y estadísticas de protocolo.
-El estado de los protocolos TCP, SCTP y los puntos finales de UDP puede visualizarse en formato de tabla. 
-También puede visualizarse información sobre la tabla de enrutamiento e información de interfaces.
+Netstat (abreviatura de "network statistics") es una herramienta de línea de comandos que se usa para mostrar información sobre las conexiones de red en tu sistema. Te permite ver qué puertos están abiertos, qué conexiones están activas, qué protocolos están siendo utilizados y otra información relacionada con la red.
+Con Netstat se pueden analizar las conexiones que están activas, los puertos de escucha y las estadisticas de red.
 - netstat -u Muestra solo las conexiones UDP activas.
 ![netstat](img/netstat-u.PNG)
 - netstat -r Muestra la tabla de enrutamiento del sistema, puedes ver cómo se enrutan los paquetes en la red.
