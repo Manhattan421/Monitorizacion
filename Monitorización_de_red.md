@@ -12,13 +12,15 @@ El comando free sin opciones nos devolverá entonces los resultados para la memo
 ### Comando tcptrack
 tcptrack es una herramienta que te permite ver las conexiones de red activas que utilizan el protocolo TCP en tu sistema, de una manera visual y fácil de seguir. En vez de mostrar todos los paquetes de datos como lo hace tcpdump, tcptrack solo muestra las conexiones TCP abiertas, actualizando la información constantemente.
 Es como un "monitor" para las conexiones de red, donde puedes ver direcciones IP están conectadas, puertos que están siendo utilizados y el estado de esas conexiones.
-- tpctrack -i + la interfaz de red, Especifica la interfaz de red que deseas monitorear que en nuestro caso es la enp0s3
-![tpctrack](img/tpctrack-i.PNG)
-- tpctrack -n Muestra las direcciones IP y puertos en formato numérico, sin intentar resolver los nombres de host o los nombres de servicio. Esto puede hacer que la salida sea más rápida.
-- tpctrack -v Muestra más detalles sobre las conexiones, como el estado de la conexión.
+- tcptrack -i + la interfaz de red, Especifica la interfaz de red que deseas monitorear que en nuestro caso es la enp0s3
+![tcptrack](img/tpctrack-i.PNG)
+- tcptrack -n Muestra las direcciones IP y puertos en formato numérico, sin intentar resolver los nombres de host o los nombres de servicio. Esto puede hacer que la salida sea más rápida.
+- tcptrack -v Muestra más detalles sobre las conexiones, como el estado de la conexión.
 
 ### Comando iptraf-ng
-Es una herramienta interactiva que proporciona estadísticas detalladas sobre el tráfico de red en tiempo real.
+Iptraf-ng es una herramienta que te permite ver y analizar el tráfico de red en tu sistema Linux en tiempo real. Es una versión mejorada de una herramienta más antigua llamada iptraf, con una interfaz más fácil de usar.
+Con esta herramienta se puede analizar todo lo que está pasando en la red de cada ordenador, las conexiones activas, los protocolos que se están usando (como TCP o UDP), y las estadísticas sobre la cantidad de datos que se están transmitiendo.
+Lo que hace que iptraf-ng sea útil es que ofrece toda esta información de forma clara, actualizada constantemente, y en una interfaz basada en texto (en la terminal), sin necesidad de herramientas más complicadas como Wireshark.
 - iptraf-ng -i + la interfaz de red, Especifica la interfaz de red que deseas monitorear.
 ![iptraf-ng](img/iptraf-ng-i.PNG)
 - iptraf-ng -d Muestra estadísticas detalladas sobre la actividad de cada interfaz de red y el tráfico.
